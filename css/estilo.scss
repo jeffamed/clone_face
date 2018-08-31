@@ -1,0 +1,193 @@
+$principal: #1176b6;
+$gris: #6d6d6d;
+
+body{
+    background: #e9ebee;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+a{
+    color: $principal;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+// header
+
+header{
+    background: $principal;
+    padding: 10px 0;
+    // LOGO
+    .logo img{
+        height: 22px;
+    }
+
+    // BUSCAR
+    .buscar{
+        form input[type="text"]{
+            width: 100%;
+            background: #fff;
+            border: none;
+            font-size: 12px;
+            padding: 2px 10px;
+            height: 29px;
+            line-height: 25px;
+            border-radius: 3px 0 0 3px; 
+            color: $gris;
+            font-family: 'Open Sans' serif;
+        }
+
+        form button{
+            width: 100%;
+            background: #fff;
+            border: none;
+            font-size: 12px;
+            padding: 0 10px;
+            height: 29px;
+            line-height: 25px;
+            border-radius: 0 3px 3px 0;
+            cursor: pointer;
+            color:$gris;
+            &:hover{
+                background: #099efc;
+                color: #fff;
+            }
+        }
+    }
+
+    // Menu
+    .menu{
+        padding: 0;
+
+        a{
+            color: rgba(255, 255, 255, .8);
+            text-decoration: none;
+            margin: 0;
+            &:hover{
+               color: #fff; 
+            }
+        }
+
+        .imagen{
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            margin: 0;
+        }
+
+        .dropdown{
+
+            .dropdown-menu{
+                top:125%;
+                left:-300%;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .dropdown-item{
+                font-size: .8em;
+                color: black;
+            }
+        }
+
+    }
+}
+
+// Barra Izquierda
+
+main{
+    padding-top: 20px;
+
+    .barra-lateral-izquierda{
+        padding-bottom: 10px;
+        padding-left: 0;
+
+        nav{
+            border-bottom: 1px solid #c7c8ca;
+            padding-bottom: 20px;
+
+            a{
+                display: block;
+                padding: 3px 3px;
+                font-family: 'Roboto' serif;
+                color: #3d3c3c;
+                text-decoration: none;
+                &:hover{
+                    background: #fff;
+                }
+
+                i{
+                   margin-right: 10px; 
+                }
+            }
+        }
+    }
+//contenido principal y publicar
+    .contenido-principal{
+
+        .publicar{
+            margin-bottom: 20px;
+            .foto{
+                padding-left: 15px;
+
+                a{
+                    width: 60px;
+                    height: 60px;
+                    display: inline-block;
+                    overflow: hidden;
+                    border-radius: 100px;
+                    margin-top: 20px;
+                }
+
+                img{
+                    width: 100%
+                }
+            }
+
+            form{
+                
+                textarea{
+                    width: 100%;
+                    max-width: 100%;
+                    min-height: 100px;
+                    max-height: 300px;
+                    border:none;
+                    padding: 15px;
+                    font-size: 16px;
+                    font-family: 'Open Sans', sans-serif;
+                    color: #565656;
+                    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .35)
+                }
+
+                .contenedor-botones{
+                    padding: 20px 0;
+                    border-bottom: 1px solid #c7c8ca;
+
+                    a{
+                        color: #8d8d8d;
+                        font-size: 20px;
+                        margin-right: 10px;
+
+                        &:hover{
+                            color: #3d3c3c;
+                        }
+                    }
+                }
+                button{
+                    border: 1px solid #00609c;
+                    padding: 5px 30px;
+                    font-size: 14px;
+                    font-family: 'Roboto' serif;
+                    background: linear-gradient(to bottom, #1a87cd 0%, #1176b6 100%);
+                    color: #fff;
+                    border-radius:3px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background: linear-gradient(to bottom, #1176b6 0%,#1a87cd 100%);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,184 @@
+body {
+  background: #e9ebee;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+a {
+  color: #1176b6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: #1176b6;
+  padding: 10px 0;
+}
+
+header .logo img {
+  height: 22px;
+}
+
+header .buscar form input[type="text"] {
+  width: 100%;
+  background: #fff;
+  border: none;
+  font-size: 12px;
+  padding: 2px 10px;
+  height: 29px;
+  line-height: 25px;
+  border-radius: 3px 0 0 3px;
+  color: #6d6d6d;
+  font-family: 'Open Sans' serif;
+}
+
+header .buscar form button {
+  width: 100%;
+  background: #fff;
+  border: none;
+  font-size: 12px;
+  padding: 0 10px;
+  height: 29px;
+  line-height: 25px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  color: #6d6d6d;
+}
+
+header .buscar form button:hover {
+  background: #099efc;
+  color: #fff;
+}
+
+header .menu {
+  padding: 0;
+}
+
+header .menu a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin: 0;
+}
+
+header .menu a:hover {
+  color: #fff;
+}
+
+header .menu .imagen {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 0;
+}
+
+header .menu .dropdown .dropdown-menu {
+  top: 125%;
+  left: -300%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+header .menu .dropdown .dropdown-item {
+  font-size: .8em;
+  color: black;
+}
+
+main {
+  padding-top: 20px;
+}
+
+main .barra-lateral-izquierda {
+  padding-bottom: 10px;
+  padding-left: 0;
+}
+
+main .barra-lateral-izquierda nav {
+  border-bottom: 1px solid #c7c8ca;
+  padding-bottom: 20px;
+}
+
+main .barra-lateral-izquierda nav a {
+  display: block;
+  padding: 3px 3px;
+  font-family: 'Roboto' serif;
+  color: #3d3c3c;
+  text-decoration: none;
+}
+
+main .barra-lateral-izquierda nav a:hover {
+  background: #fff;
+}
+
+main .barra-lateral-izquierda nav a i {
+  margin-right: 10px;
+}
+
+main .contenido-principal .publicar {
+  margin-bottom: 20px;
+}
+
+main .contenido-principal .publicar .foto {
+  padding-left: 15px;
+}
+
+main .contenido-principal .publicar .foto a {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+main .contenido-principal .publicar .foto img {
+  width: 100%;
+}
+
+main .contenido-principal .publicar form textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 300px;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #565656;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+}
+
+main .contenido-principal .publicar form .contenedor-botones {
+  padding: 20px 0;
+  border-bottom: 1px solid #c7c8ca;
+}
+
+main .contenido-principal .publicar form .contenedor-botones a {
+  color: #8d8d8d;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+main .contenido-principal .publicar form .contenedor-botones a:hover {
+  color: #3d3c3c;
+}
+
+main .contenido-principal .publicar form button {
+  border: 1px solid #00609c;
+  padding: 5px 30px;
+  font-size: 14px;
+  font-family: 'Roboto' serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a87cd), to(#1176b6));
+  background: linear-gradient(to bottom, #1a87cd 0%, #1176b6 100%);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+main .contenido-principal .publicar form button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1176b6), to(#1a87cd));
+  background: linear-gradient(to bottom, #1176b6 0%, #1a87cd 100%);
+}
+/*# sourceMappingURL=estilo.css.map */
