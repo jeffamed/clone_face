@@ -145,7 +145,7 @@ main{
             }
 
             form{
-                
+
                 textarea{
                     width: 100%;
                     max-width: 100%;
@@ -190,4 +190,39 @@ main{
             }
         }
     }
+
+    // Publicaciones
+    .publicacion{
+        margin-bottom: 40px;
+        .foto{
+            padding-left: 15px;
+            // margin-right: 15px;
+            a{
+                display:inline-block;
+                width: 60px;
+                height: 60px;
+                overflow: hidden;
+                border-radius: 100px;
+                
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }  
+    
+    // .comentarios{
+    //     .comentario{
+    //         a{
+    //             display:inline-block;
+    //             width: 60px;
+    //             height: 60px;
+    //             overflow: hidden;
+    //             border-radius: 100px;
+    //             img{
+    //                 width: 100%;
+    //             } 
+    //         }
+    //     }
+    // }
 }
