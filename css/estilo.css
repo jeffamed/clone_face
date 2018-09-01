@@ -76,7 +76,7 @@ header .menu .imagen {
 
 header .menu .dropdown .dropdown-menu {
   top: 125%;
-  left: -300%;
+  left: -325%;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -325,7 +325,30 @@ main footer .copyright {
   text-align: center;
 }
 
+@media screen and (max-width: 868px) {
+  header .menu .dropdown .dropdown-menu {
+    top: 160%;
+    left: -480%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  header .menu .dropdown .dropdown-item {
+    font-size: .7em;
+    color: black;
+  }
+}
+
 @media screen and (max-width: 767px) {
+  header .menu .dropdown .dropdown-menu {
+    top: 160%;
+    left: -300%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  header .menu .dropdown .dropdown-item {
+    font-size: .7em;
+    color: black;
+  }
   main .btn-menu {
     display: inline-block;
     border: 1px solid #00609c;
@@ -391,6 +414,16 @@ main footer .copyright {
 }
 
 @media screen and (max-width: 575px) {
+  header .menu .dropdown .dropdown-menu {
+    top: 120%;
+    left: -450%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  header .menu .dropdown .dropdown-item {
+    font-size: .7em;
+    color: black;
+  }
   main .contenido-principal .publicar .foto a {
     width: 30px;
     height: 30px;

@@ -81,7 +81,7 @@ header{
 
             .dropdown-menu{
                 top:125%;
-                left:-300%;
+                left:-325%;
                 padding-left: 5px;
                 padding-right: 5px;
             }
@@ -347,7 +347,45 @@ main{
 }
 
 // @mediaQuery
+@media screen and(max-width: 868px){
+    header{
+        .menu{
+            .dropdown{
+                .dropdown-menu{
+                    top:160%;
+                    left:-480%;
+                    // padding: 0;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+                .dropdown-item{
+                    font-size: .7em;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 767px){
+    header{
+        .menu{
+            .dropdown{
+                .dropdown-menu{
+                    top:160%;
+                    left:-300%;
+                    // padding: 0;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+                .dropdown-item{
+                    font-size: .7em;
+                    color: black;
+                }
+            }
+        }
+    }
+
     main{
         .btn-menu{
             display: inline-block;
@@ -416,6 +454,24 @@ main{
 }
 
 @media screen and (max-width: 575px){
+    header{
+        .menu{
+            .dropdown{
+                .dropdown-menu{
+                    top:120%;
+                    left:-450%;
+                    // padding: 0;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+                .dropdown-item{
+                    font-size: .7em;
+                    color: black;
+                }
+            }
+        }
+    }
+
     main{
         .contenido-principal {
             .publicar{
