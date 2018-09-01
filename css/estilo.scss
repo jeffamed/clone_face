@@ -209,20 +209,137 @@ main{
                 }
             }
         }
+
+        .nombre{
+            font-family: 'Roboto' ,serif;
+            font-size: 16px;
+            line-height: 16px;
+            display: inline-block;
+            // padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        .texto{
+            background: #fff;
+            color: #3d3c3c;
+            font-size: 14px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .imagen{
+            padding: 15px;
+            background: #fff;
+            margin-bottom: 15px;
+            img{
+                width: 100%;
+            }
+        }
+
+        .caja-botones{
+            margin-bottom: 20px;
+        }
+
+        .post-publ{
+            .caja-botones{
+                button{
+                    background: #1176b1;
+                    color: #fff;
+                    padding: 10px 20px;
+                    display: inline-block;
+                    font-size: 18px;
+                    line-height: 18px;
+                    border-radius: 4px;
+                    border: none;
+                    &:hover{
+                        background: #0d659d;
+                        cursor: pointer
+                    }
+                }
+                p{
+                    margin-bottom: 0;
+                    color: #1782c6;
+                }
+            }
+        }
+
+        // Comentarios
+        .comentario{
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #cbcbcb;
+
+            .foto{
+                padding-left: 0;
+                margin-right: 15px;
+                a{
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            form{
+                textarea{
+                    width: 100%;
+                    background: #fff;
+                    border: 1px solid #cbcbcb;
+                    color: #565656;
+                    padding: 8px;
+                    min-height: 40px;
+                    height: 40px;
+                    min-width: 100%;
+                    max-width: 100%;
+                    font-size: 14px;
+                }
+            }
+
+            .respuesta{
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            
+            .me-gusta{
+                font-size: 14px;
+            }
+        }
     }  
-    
-    // .comentarios{
-    //     .comentario{
-    //         a{
-    //             display:inline-block;
-    //             width: 60px;
-    //             height: 60px;
-    //             overflow: hidden;
-    //             border-radius: 100px;
-    //             img{
-    //                 width: 100%;
-    //             } 
-    //         }
-    //     }
-    // }
+
+    // Barra Derecha
+
+    .barra-lateral-derecha{
+        h3{
+            font-size: 16px;
+            font-family: 'Roboto',serif;
+            text-align: center;
+        }
+
+        .ads{
+            // margin-bottom: 20px;
+            a{
+                margin-bottom: 15px;
+                display: inline-block;
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    // footer
+    footer{
+        font-size: 14px;
+        font-family: 'Roboto' ,serif;
+
+        a{
+            color: #1176b6;
+            line-height: 14px;
+            margin-right: 10px;
+        }
+
+        .copyright{
+            color: #919191;
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
 }
