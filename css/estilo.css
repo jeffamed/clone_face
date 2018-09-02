@@ -142,7 +142,6 @@ main .contenido-principal .publicar form textarea {
   max-width: 100%;
   min-height: 100px;
   max-height: 300px;
-  border: none;
   padding: 15px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -204,7 +203,7 @@ main .publicacion .foto a img {
 }
 
 main .publicacion .nombre {
-  font-family: 'Roboto' ,serif;
+  font-family: Arial ,serif;
   font-size: 16px;
   line-height: 16px;
   display: inline-block;
@@ -222,7 +221,6 @@ main .publicacion .texto {
 main .publicacion .imagen {
   padding: 15px;
   background: #fff;
-  margin-bottom: 15px;
 }
 
 main .publicacion .imagen img {
@@ -233,23 +231,40 @@ main .publicacion .caja-botones {
   margin-bottom: 20px;
 }
 
+main .publicacion .post-publ .caja-botones {
+  background: #e9ebee;
+}
+
 main .publicacion .post-publ .caja-botones button {
-  background: #1176b1;
-  color: #fff;
+  width: calc(100% / 3);
+  background: transparent;
+  color: gray;
   padding: 10px 20px;
   display: inline-block;
   font-size: 18px;
   line-height: 18px;
-  border-radius: 4px;
   border: none;
 }
 
 main .publicacion .post-publ .caja-botones button:hover {
-  background: #0d659d;
+  background: gray;
   cursor: pointer;
+  color: #fff;
 }
 
-main .publicacion .post-publ .caja-botones p {
+main .publicacion .post-publ .title-post {
+  color: black;
+}
+
+main .publicacion .post-publ .info-like {
+  color: grey;
+}
+
+main .publicacion .post-publ .info-like span {
+  font-size: 12px;
+}
+
+main .publicacion .post-publ .like {
   margin-bottom: 0;
   color: #1782c6;
 }
@@ -275,6 +290,7 @@ main .publicacion .comentario form textarea {
   width: 100%;
   background: #fff;
   border: 1px solid #cbcbcb;
+  border-radius: 20px;
   color: #565656;
   padding: 8px;
   min-height: 40px;
@@ -439,5 +455,14 @@ main footer .copyright {
   main .contenido-principal .publicar .foto {
     display: none;
   }
+}
+
+.triangulo {
+  width: 20px;
+  height: 20px;
+  border-right: 20px solid #cbcbcb;
+  border-top: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid transparent;
 }
 /*# sourceMappingURL=estilo.css.map */

@@ -152,7 +152,6 @@ main{
                     max-width: 100%;
                     min-height: 100px;
                     max-height: 300px;
-                    border:none;
                     padding: 15px;
                     font-size: 16px;
                     font-family: 'Open Sans', sans-serif;
@@ -212,7 +211,7 @@ main{
         }
 
         .nombre{
-            font-family: 'Roboto' ,serif;
+            font-family: Arial ,serif;
             font-size: 16px;
             line-height: 16px;
             display: inline-block;
@@ -231,7 +230,7 @@ main{
         .imagen{
             padding: 15px;
             background: #fff;
-            margin-bottom: 15px;
+            // margin-bottom: 15px;
             img{
                 width: 100%;
             }
@@ -243,25 +242,41 @@ main{
 
         .post-publ{
             .caja-botones{
+                background: #e9ebee;
+                // border: 1px solid gray;
                 button{
-                    background: #1176b1;
-                    color: #fff;
+                    // background: #1176b1;
+                    width: calc(100% / 3);
+                    background: transparent;
+                    color: gray;
                     padding: 10px 20px;
                     display: inline-block;
                     font-size: 18px;
                     line-height: 18px;
-                    border-radius: 4px;
+                    // border-radius: 4px;
                     border: none;
                     &:hover{
-                        background: #0d659d;
-                        cursor: pointer
+                        // background: #0d659d;
+                        background: gray;
+                        cursor: pointer;
+                        color: #fff;
                     }
                 }
-                p{
+            }
+
+                .title-post{
+                    color: black;
+                }
+                .info-like{
+                    color: grey;
+                    span{
+                        font-size: 12px;
+                    }
+                }
+                .like{
                     margin-bottom: 0;
                     color: #1782c6;
                 }
-            }
         }
 
         // Comentarios
@@ -284,6 +299,7 @@ main{
                     width: 100%;
                     background: #fff;
                     border: 1px solid #cbcbcb;
+                    border-radius: 20px;
                     color: #565656;
                     padding: 8px;
                     min-height: 40px;
@@ -508,3 +524,12 @@ main{
         }
     }
 }
+
+.triangulo{
+    width: 20px;
+    height: 20px;
+    border-right: 20px solid #cbcbcb;
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    }
