@@ -216,7 +216,7 @@ main{
             line-height: 16px;
             display: inline-block;
             // padding: 15px;
-            margin-bottom: 10px;
+            // margin-bottom: 5px;
         }
 
         .texto{
@@ -241,10 +241,14 @@ main{
         }
 
         .post-publ{
+
+            .time-post{
+                margin-top: 0px;
+            }
             .caja-botones{
                 background: #e9ebee;
                 // border: 1px solid gray;
-                button{
+                .option-post{
                     // background: #1176b1;
                     width: calc(100% / 3);
                     background: transparent;
@@ -257,13 +261,34 @@ main{
                     border: none;
                     &:hover{
                         // background: #0d659d;
-                        background: gray;
+                        background: transparent;
                         cursor: pointer;
-                        color: #fff;
+                        // color: #fff;
+                        color:#0d659d;
                     }
                 }
-            }
 
+                button{
+                    background: #1176b1;
+                    color: #fff;
+                    padding: 10px 20px;
+                    display: inline-block;
+                    font-size: 18px;
+                    line-height: 18px;
+                    border-radius: 4px;
+                    border: none;
+                    &:hover{
+                        background: #0d659d;
+                        cursor: pointer
+                    }
+                }
+                p{
+                    margin-bottom: 0;
+                    color: #1782c6;
+                }
+
+            }
+            
                 .title-post{
                     color: black;
                 }
@@ -275,7 +300,19 @@ main{
                 }
                 .like{
                     margin-bottom: 0;
-                    color: #1782c6;
+                    padding: 3px;
+                    font-size: 12px;
+                    border-radius: 20px;
+                    background: #1782c6;
+                    color: #fff;
+                }
+                .love{
+                    margin-left: -5px;
+                    padding: 3px;
+                    font-size: 12px;
+                    border-radius: 20px;
+                    background: rgba(247, 23, 23, 0.863);
+                    color: #fff;
                 }
         }
 
@@ -359,7 +396,9 @@ main{
             text-align: center;
         }
     }
-    
+    // .public{
+    //     background: #fff;
+    // }
 }
 
 // @mediaQuery
